@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
-import Extrato from "../Extrato/Extrato";
+import Extrato from "../Extrato";
 
 const StyledContainer = styled.div`
   background-color: #f1f1f1;
@@ -24,7 +24,8 @@ const StyledConteudo = styled.section`
 const Container = () => {
   return (
     <StyledContainer>
-      <Titulo>Olá Fulano!</Titulo>
+      <Titulo nome={"Olá Fulanokkkkkk!"}></Titulo>
+      {/* <Titulo>Olá Fulanokkkkkk!</Titulo> */}
       <StyledConteudo>
         <Conta />
         <Extrato />
